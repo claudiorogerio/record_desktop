@@ -8,4 +8,4 @@
 
 
 *User Mode:*
- $ python3 record_video.py
+> $ python3 record_video.py
