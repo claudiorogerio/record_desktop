@@ -2,10 +2,10 @@
 ## *Programming to record a personal desktop, audio, microfone or cam with python3 and ffmpeg*
 
 
-*Dependencies:*
+* *Dependencies:*
 - [x] sudo apt install ffmpeg
 - [x] sudo apt install python3
 
 
-*User Mode:*
+* *User Mode:*
 > $ python3 record_video.py
