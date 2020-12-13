@@ -1,7 +1,9 @@
+import sys
 import os
 import time
 import platform
 import subprocess
+from distutils.util import strtobool
 
 """
 claudiorogerio@unifap.br
@@ -68,3 +70,17 @@ def record( out_file="", video_size=0, webcam=False, desktop = True, microphone 
     os.system( cmd )        # execute command
 
 
+
+#####################################################
+
+# call record function
+no, file_out, vd, cam, desk, microf, audio, quality = sys.argv
+print( "Recording file:", file_out, " size:", vd, " Webcam:", cam, " Desktop:", desk, " Microfone:", microf, " Audio:", audio, "Quality:", quality ) 
+
+cam = strtobool(cam)
+desk = strtobool(desk)
+microf = strtobool(microf)
+audio = strtobool(audio)
+quality = int(quality)
+
+record( out_file=file_out, video_size = vd, webcam = cam, desktop = desk, microphone = microf, audio = audio, quality = quality )
