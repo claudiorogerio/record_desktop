@@ -8,4 +8,4 @@
 
 
 * *User Mode:*
-> $ python3 record_video.py
+> python3 record_video.py file.mp4 600x480 False True False True 2
