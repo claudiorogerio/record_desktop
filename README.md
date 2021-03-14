@@ -6,7 +6,7 @@
 - [x] sudo apt install ffmpeg
 - [x] sudo apt install python3
 
-* *User Mode general: *
+* *User Mode general:*
 > python3 record_file.py output desktop_area webcam desktop microphone audio quality
 
 * *User Mode to record Desktop area and microphone:*
