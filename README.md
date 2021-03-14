@@ -15,5 +15,6 @@
 * *User Mode to record microphone:*
 > python3 record_video.py file.wav 0 False True False 3
 
-Note1: It is important to follow this verbate order.
-Note2: Audio is some sound playing in the momment, which in this version it can't be to record as same way than microphone.
+Note 1: It is important to follow this verbate order.
+
+Note 2: Audio is some sound playing in the momment, which in this version it can't be to record as same way than microphone.
