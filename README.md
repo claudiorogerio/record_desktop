@@ -5,6 +5,7 @@
 * *Dependencies:*
 - [x] sudo apt install ffmpeg
 - [x] sudo apt install python3
+- [x] pip3 install ffmpeg-python
 
 * *User Mode general:*
 > python3 record_file.py output desktop_area webcam desktop microphone audio quality
