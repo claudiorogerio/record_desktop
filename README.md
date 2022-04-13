@@ -35,7 +35,7 @@ python3 record_video.py output video_size webcam microphone audio quality
 
 Note 1: Video Output extensions accepted: mp4, mkv, mov; Audio Output extensions accepted: wav, ogg, mp3
 
-Note 2: Quality variation from 0 (worse) to 3 (best)
+Note 2: Quality variation of 0 (worse) to 3 (best)
 
 Note 3: Record Stop pressing: <kbd>Ctrl</kbd> + <kbd>C</kbd> 
 
