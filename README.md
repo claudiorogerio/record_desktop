@@ -12,26 +12,18 @@
 
 * *User Mode to record Desktop area and microphone:*
 ```shell
-output='out.mp4'    # .mkv  .mov
+output='out.mp4'    
 video_size='600x480'
 webcam=False
 microphone=True
 audio=False
-quality=3       # 0--3
+quality=3       
 python3 record_video.py output video_size webcam microphone audio quality
 ```
-> output='out.mp4'    # .mkv .mov
-> video_size='600x480'
-> webcam=False
-> microphone=True
-> audio=False
-> quality=3  #0--3
-
-> python3 record_video.py output video_size webcam microphone audio quality
 
 * *User Mode to record microphone:*
 ```shell
-output='out.wav'    # .mkv  .mov
+output='out.wav'   
 video_size=0
 webcam=False
 microphone=True
@@ -40,13 +32,9 @@ quality=3       # 0--3
 python3 record_video.py output video_size webcam microphone audio quality
 ```
 
-> output='out.wav'    # .mp3 .ogg 
-> video_size=0
-> webcam=False
-> microphone=True
-> audio=False
-> quality=3  #0--3
-> python3 record_video.py output video_size webcam microphone audio quality
+Note 1: Video Output extensions accepted: mp4, mkv, mov; Audio Output extensions accepted: wav, ogg, mp3
+
+Note 1: Quality variation from 0 (worse) to 3 (best)
 
 Note 1: Record Stop pressing: <kbd>Ctrl</kbd> + <kbd>C</kbd> 
 
