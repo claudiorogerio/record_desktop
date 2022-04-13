@@ -11,15 +11,35 @@
 > python3 record_video.py output desktop_area webcam desktop microphone audio quality
 
 * *User Mode to record Desktop area and microphone:*
+```shell
+output='out.mp4'    # .mkv  .mov
+video_size='600x480'
+webcam=False
+microphone=True
+audio=False
+quality=3       # 0--3
+python3 record_video.py output video_size webcam microphone audio quality
+```
 > output='out.mp4'    # .mkv .mov
 > video_size='600x480'
 > webcam=False
 > microphone=True
 > audio=False
 > quality=3  #0--3
+
 > python3 record_video.py output video_size webcam microphone audio quality
 
 * *User Mode to record microphone:*
+```shell
+output='out.wav'    # .mkv  .mov
+video_size=0
+webcam=False
+microphone=True
+audio=False
+quality=3       # 0--3
+python3 record_video.py output video_size webcam microphone audio quality
+```
+
 > output='out.wav'    # .mp3 .ogg 
 > video_size=0
 > webcam=False
@@ -28,6 +48,6 @@
 > quality=3  #0--3
 > python3 record_video.py output video_size webcam microphone audio quality
 
-Note 1: Record Stop pressing: <crtl> + <c>
+Note 1: Record Stop pressing: <kbd>Ctrl</kbd> + <kbd>C</kbd> 
 
 Note 2: Audio is a sound playing in the desktop, which in this version code it can't be to record as same way audio and microphone.
