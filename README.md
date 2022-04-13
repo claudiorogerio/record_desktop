@@ -21,6 +21,7 @@ quality=3
 python3 record_video.py output video_size webcam microphone audio quality
 ```
 
+
 * *User Mode to record microphone:*
 ```shell
 output='out.wav'   
