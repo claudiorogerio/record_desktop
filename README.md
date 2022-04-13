@@ -8,14 +8,26 @@
 - [x] pip3 install ffmpeg-python
 
 * *User Mode general:*
-> python3 record_file.py output desktop_area webcam desktop microphone audio quality
+> python3 record_video.py output desktop_area webcam desktop microphone audio quality
 
 * *User Mode to record Desktop area and microphone:*
-> python3 record_file.py output='file.mp4' desktop_area='600x480' webcam=False microphone=True audio=False quality=3
+> output='out.mp4'    # .mkv .mov
+> video_size='600x480'
+> webcam=False
+> microphone=True
+> audio=False
+> quality=3  #0--3
+> python3 record_video.py output video_size webcam microphone audio quality
 
 * *User Mode to record microphone:*
-> python3 record_file.py output='file.wav' desktop_area=0 webcam=False microphone=True audio=False quality=3
+> output='out.wav'    # .mp3 .ogg 
+> video_size=0
+> webcam=False
+> microphone=True
+> audio=False
+> quality=3  #0--3
+> python3 record_video.py output video_size webcam microphone audio quality
 
-Note 1: Record Stop pressing: < crtl > + < c >
+Note 1: Record Stop pressing: <crtl> + <c>
 
 Note 2: Audio is a sound playing in the desktop, which in this version code it can't be to record as same way audio and microphone.
